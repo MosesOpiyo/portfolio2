@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/pictures/code.jpg);
+    padding-left: 10%;
+    padding-right: 0%;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 60px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+.row{
+    color: rgb(8, 231, 231);
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.col{
+    flex-basis: 90%;
+    
+}
+h1{
+    padding-bottom: 20px;
+    
+     text-shadow: 0 0 3px #06fa9d, 0 0 5px #00a2ff;
+}
+p{
+    font-size: 20px;
+    padding-bottom: 18px;
+}
+button{
+    width: 180px;
+    font-size: 20px;
+    padding: 12px 0;
+    background:rgb(5, 28, 37) ;
+    border: 2px solid rgb(8, 231, 231) ;
+    border-radius: 30px;
+    color: #fff;
+    outline: none;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+button[type="button"]:hover{
+    background:rgb(8, 231, 231)
+}
+.card{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 40px;
+    background-image: url(images/option3.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(9, 209, 116);
+    border: 2px solid rgb(8, 231, 231);
+}
+card:hover{
+    background: rgb(9, 209, 116);
+
+}
+.box{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(Images/option4.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(9, 209, 116);
+    border: 2px solid rgb(9, 209, 116);
+}

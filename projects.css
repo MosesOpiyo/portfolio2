@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    
+   
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 10px;
+}
+.navbar ul li{
+    padding: 20px;
+    font-size: 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/pictures/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.headings{
+    padding-top: 30px;
+    font-size: 30px;
+    margin: 30px;
+    color: white;
+}
+ol li{
+    list-style: none;
+    padding: 30px;
+}
+ol li a{
+    display: flex;
+    padding:30px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    border: 2px solid white;
+    width: 20%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+

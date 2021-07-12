@@ -50,9 +50,9 @@ ol li a{
     padding:30px;
     text-decoration: none;
     list-style: none;
-    color: white;
+    color: black;
     font-size: 30px;
-    border: 2px solid white;
+    border: 2px solid black;
     width: 20%;
     border-radius: 30px;
     cursor: pointer;
